@@ -45,7 +45,4 @@ def list_inputs():
         <a href="/">Torna alla home</a>
     '''
 
-if __name__ == "__main__":
-    app.run()
-
-    app.run()
+app.run(host='0.0.0.0', port=81)
